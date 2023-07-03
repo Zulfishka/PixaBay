@@ -68,6 +68,7 @@ import retrofit2.Response
             }
             searchBtn.setOnClickListener {
                 adapter.arrayList.clear()
+                page=1
                 searchImage()
             }
         }
